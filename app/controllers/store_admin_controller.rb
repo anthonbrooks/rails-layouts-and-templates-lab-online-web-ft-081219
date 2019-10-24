@@ -4,7 +4,7 @@ class StoreAdminController < ApplicationController
   end 
   
   def orders
-    
+    render layout 'order_'
   end 
   
   def invoice
