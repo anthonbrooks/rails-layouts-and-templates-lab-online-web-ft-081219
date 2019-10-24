@@ -1,3 +1,5 @@
 class StoreAdminController
-  layout: admin
+  layout 'admin'
+  def home
+  end 
 end 
